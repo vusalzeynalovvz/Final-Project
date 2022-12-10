@@ -1,0 +1,170 @@
+body {
+  background-color: #fff !important;
+}
+*.container {
+  max-width: 1300px;
+}
+
+.header-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.header-up-left-phone {
+  padding-right: 18px;
+  border-right: 1px solid #e2e2e2;
+}
+.header-up-left-phone a {
+  color: #000;
+  margin-left: 5px;
+}
+.header-up-left-phone a:hover {
+  color: #c0a483;
+}
+
+.header-up-left-mail {
+  padding-left: 18px;
+}
+.header-up-left-mail a {
+  color: #000;
+  margin-left: 5px;
+}
+.header-up-left-mail a:hover {
+  color: #c0a483;
+}
+.header-up-left {
+  display: flex;
+  padding: 10px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.header-up a {
+  padding: 1px;
+}
+
+.header-up-right a {
+  padding: 0 22px 0 0;
+  font-size: 15px;
+  color: #000;
+}
+.header-up-right a:hover {
+  color: #c0a483;
+}
+.header-up-line {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.header-down-all {
+  padding: 20px 0;
+}
+.header-down-logo img {
+  max-height: 22px;
+  width: auto;
+}
+
+.header-down-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-down-left {
+  display: flex;
+  align-items: center;
+}
+.header-down-login-icon {
+  display: flex;
+  align-items: center;
+}
+.header-down-login {
+  padding-right: 17px;
+  font-family: "Marcellus", serif;
+  font-size: 12px;
+}
+.header-down-login-icon a {
+  color: #000;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  background-color: #eee;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.tutorial {
+  width: 100%;
+  background-color: #fff;
+  max-width: 800px;
+}
+.tutorial .information h1 {
+  color: #333;
+  font-size: 1.5rem;
+  padding: 0px 10px;
+  border-left: 3px solid #f03861;
+}
+.tutorial .information h3 {
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0px 10px;
+  border-left: 3px solid #f03861;
+}
+.tutorial .information p {
+  padding: 10px 0px;
+}
+.tutorial ul {
+  font-size: 0;
+  list-style-type: none;
+}
+.tutorial ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+}
+.tutorial ul li ul {
+  display: none;
+}
+
+.tutorial ul li:hover ul {
+  display: block;
+  margin-top: 15px;
+  width: 200px;
+  left: 0;
+  position: absolute;
+}
+.tutorial ul li:hover ul li {
+  display: block;
+  background-color: #e7e7e7;
+}
+.tutorial ul li:hover ul li span {
+  float: right;
+  color: #f9f9f9;
+  background-color: #f03861;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+.tutorial ul li:hover ul li:hover {
+  background-color: #e0e0e0;
+}
+.tutorial ul li:hover ul li:hover span {
+  background-color: #ee204e;
+}
