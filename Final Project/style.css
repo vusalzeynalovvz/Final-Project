@@ -120,7 +120,7 @@ body {
   left: 50px;
   z-index: 1111;
 }
- 
+
 .orta-text {
   text-align: center;
   font-family: "Marcellus", Sans-serif;
@@ -130,22 +130,34 @@ body {
   padding: 50px 0 20px 0;
   background-color: #fff;
 }
-.orta-text span{
-  color:#c0a483;
+.orta-text span {
+  color: #c0a483;
 }
-.box{
+
+.orta-text2 {
+  text-align: center;
+  font-family: "Marcellus", Sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 50px 0 20px 0;
+  background-color: rgb(243, 246, 243);
+}
+.orta-text2 span {
+  color: #c0a483;
+}
+.box {
   position: relative;
-  
 }
-.box img{
+.box img {
   vertical-align: bottom;
 }
 
-.box p{
+.box p {
   position: absolute;
   bottom: 5px;
   left: 150px;
-  transform:translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border: 1px solid #fff;
   background-color: #fff;
   font-family: "Marcellus", serif;
@@ -153,24 +165,23 @@ body {
   color: #000;
 }
 
-.box-all{
+.box-all {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-.box-all .box{
+
+.box-all .box {
   filter: grayscale(0);
   transition: 1s;
-  
-
 }
 
-.box-all .box:hover{
+.box-all .box:hover {
   filter: grayscale(1);
 }
-.carusel img{
- width: 100px;
+.carusel img {
+  width: 100px;
 }
-
+/* 
 .balaca-sekil{
   position: relative;
   
@@ -189,75 +200,112 @@ body {
   font-family: "Marcellus", serif;
   padding: 15px;
   color: #000;
+} */
+.wine-all {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-image: url;
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.wine-all img {
+  /* border: 2px solid #000; */
+  width: 90%;
+  margin-left: 47px;
+}
+.wine-all span {
+  position: absolute;
+  left: 28%;
+  top: 3%;
+  border: 1px solid #c0a483;
+  background-color: #c0a483;
+  padding: 2px 9px 1px 10px;
+  font-family: "Marcellus", serif;
+  font: weight 400px;
+  color: #fff;
+}
+
+.balaca-sekil {
+  position: relative;
+  margin-top: 40px;
+}
+
+.balaca-sekil .text-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+.balaca-sekil button {
+  position: absolute;
+  left: 50%;
+  margin-top: 30px;
+  padding: 10px;
+  font-family: "Marcellus", serif;
+  border: 1px;
+  border-radius: 5px;
+  background-color: rgb(161, 38, 38);
+  color: #fff;
+}
+.balaca-sekil button:hover {
+  background-color: #c0a483;
+}
+.slider3 img {
+  width: 90%;
+  border: 0.5px solid gray;
+  margin-left: 15px;
+}
+.grape {
+  margin-top: 30px;
+  position: relative;
+}
+
+.grape .icon-text i {
+  position: absolute;
+  font-size: 52px;
+  top: 19%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.grape .icon-text p {
+  position: absolute;
+  font-size: 30px;
+  margin: 12px;
+  padding: 10px;
+  top: 33%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.grape .icon-text span {
+  position: absolute;
+  color: #fff;
+  font-family: Marcellus, serif;
+  font-size: 16px;
+  top: 48%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.5mm;
+}
+
+.brand-all{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.brand img{
+ width: 200px;
+ height: 200px;
+ /* border: 2px solid; */
+ padding: 20px;
+ background-color: #fff; 
+padding: 20px;
+}
 
 
 
@@ -267,6 +315,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.tutorial ul {
+  z-index: 999999;
 }
 body,
 html {
