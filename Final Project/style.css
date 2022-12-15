@@ -349,7 +349,12 @@ body {
   /* background-color: #fff; */
   /* padding: 20px; */
 /* } */ 
-
+.card img{
+  padding: 60px
+}
+.card img:hover{
+  transform: scale(1.1);
+}
 
 
 
@@ -1365,12 +1370,117 @@ html {
 
 
 
-#feedback{
-  display: inline-block;
+
+
+ *{
+  /* margin: 0; */
+  /* padding: 0; */
+  font-family: "montserrat",sans-serif;
 }
-.fb1{
+.testimonials{
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
   text-align: center;
+  background-color: #FAF4EE;
 }
-.card i{
-  display: flex
+
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-family: Open Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #868686;
+    display: inline-block;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  margin: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 600;
+  font-family: Open Sans,sans-serif;
+  margin-top: 10px;
+}
+.stars{
+    color: #6ab04c;
+    display: inline-block;
+    color: #ffc107;
+    font-family: FontAwesome;
+    font-size: 13px;
+}
+.stars h1{
+  font-family: Marcellus,serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    color: #000;
+
+}
+.our{
+  text-align: center;
+  color: #000000;
+  font-family: "Marcellus", Sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.stop p{
+  font-family: Open Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+
+@media screen and (max-width:960px) {
+.col{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col{
+  flex: 100%;
+  max-width: 100%;
+}
 }

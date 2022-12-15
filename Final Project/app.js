@@ -133,13 +133,13 @@ $('.three-photo-I').slick({
   ]
 });
 
-$('.rey').slick({
+$('.testimonials').slick({
   dots: true,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
-  slidesToScroll: 2,
-  arrows: false,
+  slidesToScroll: 3,
+  arrows: true, 
   responsive: [
     {
       breakpoint: 1024,
