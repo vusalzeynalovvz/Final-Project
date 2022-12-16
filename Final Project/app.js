@@ -133,11 +133,11 @@ $('.three-photo-I').slick({
   ]
 });
 
-$('.testimonials').slick({
+$('.testimonial-all').slick({
   dots: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 1,
+  slidesToShow: 3,
   slidesToScroll: 3,
   arrows: true, 
   responsive: [
@@ -169,6 +169,8 @@ $('.testimonials').slick({
     // instead of a settings object
   ]
 });
+
+
 
 
 
