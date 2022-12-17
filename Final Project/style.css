@@ -116,7 +116,78 @@ body {
 .slider img {
   width: 100%;
   height: 556px;
+  position: relative;
 }
+ .slider-text-spr p{
+  position: absolute;
+  color: red;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 56px;
+  font-family: "Marcellus", serif;
+  color: #fff;
+  width: 340px;
+}
+.slider-text-spr .soz2{
+top: 65%;
+font-size: 19px;
+width: 490px;
+}
+.slider-text-spr .soz3{
+  top: 70%;
+  padding: 0px 33px ;
+  color: #000 ;
+}
+.soz3 a{
+  border: 2px SOLID #fff ;
+  font-size: 13px ;
+  padding: 10px 40px;
+  color: #fff;
+}
+.soz3 a:hover{
+  background-color: #c0a483 ;
+  border-color: #c0a483;
+}
+
+/* .slider-text-spr2{
+  z-index: 10;
+}
+
+.slider-text-spr2 p{
+  position: absolute;
+  color: red;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 56px;
+  font-family: "Marcellus", serif;
+  color: #fff;
+  width: 340px;
+}
+.slider-text-spr2 .soz4{
+top: 65%;
+font-size: 19px;
+width: 490px;
+}
+.slider-text-spr2 .soz5{
+  top: 70%;
+  padding: 0px 33px ;
+  color: #000 ;
+}
+.soz4 a{
+  border: 2px SOLID #fff ;
+  font-size: 13px ;
+  padding: 10px 40px;
+  color: #fff;
+}
+.soz5 a:hover{
+  background-color: #c0a483 ;
+  border-color: #c0a483;
+} */
+
 .slick-next {
   right: 50px;
 }
@@ -155,6 +226,8 @@ body {
 }
 .box img {
   vertical-align: bottom;
+  width: 327px;
+  height: 287px;
 }
 
 .box p {
@@ -170,8 +243,9 @@ body {
 }
 
 .box-all {
+  background-color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 .box-all .box {
@@ -185,6 +259,181 @@ body {
 .carusel img {
   width: 100px;
 }
+
+.card {
+  width: 417px;
+}
+.card{
+    border-radius: 0px;
+}
+.stars {
+  width: 80px;
+  text-align: center;
+}
+.stars i {
+  font-size: 9px;
+  color: #ea1e1e;
+}
+.card-slider {
+  height: 100%;
+}
+.star-text {
+  display: flex;
+  width: 200px;
+  margin-left: 33%;
+}
+.ulduz-text p {
+  margin-top: 5px;
+  color: #a3a3a3;
+  font-size: 12px;
+}
+.mehsul-adi p {
+  text-align: center;
+  width: 250px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Marcellus, serif;
+  letter-spacing: 0.1em;
+  margin: 2px auto 7px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.wine-all-slider{
+  background-image: url(/image/banner9.webp);
+  width: 100%;
+}
+
+.price {
+  text-align: center;
+}
+.price span {
+  
+  font-size: 16px;
+  color: #c0a483;
+  font-weight: 400;
+  font-family: Marcellus, serif;
+}
+.info{
+  margin-top: 15px;
+  text-align: start;
+}
+.text-hot-all{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 10px auto;
+}
+.text-hot {
+  background-color: #c0a483;
+  width: 47px;
+  height: 24px;
+}
+.text-hot p {
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  /* padding: 1px 7px; */
+  /* text-transform: capitalize; */
+  font-weight: 500;
+  font-family: Marcellus, serif;
+}
+.text-hot-2 {
+    background-color: #b12a2a;
+    width: 47px;
+    height: 24px;
+    color: #fff;
+  }
+  .text-hot-2 p{
+    text-align: center;
+  }
+  
+
+
+
+  .card-slider-2 .card {
+    margin-left: 20px;
+    width: 300px;
+    border-radius: 0;
+  }
+  .card-slider-2 .card-body {
+    padding: 0px;
+  }
+  
+  .card-slider-2 .stars {
+    width: 80px;
+    text-align: center;
+  }
+  .card-slider-2 .stars i {
+    font-size: 9px;
+    color: #ea1e1e;
+  }
+  /* .card-slider-2 {
+    height: 100%;
+  } */
+  .card-slider-2 .star-text {
+    display: flex;
+    width: 200px;
+    margin-left: 33%;
+  }
+  .card-slider-2 .ulduz-text p {
+    margin-top: 5px;
+    color: #a3a3a3;
+    font-size: 12px;
+  }
+  .card-slider-2 .mehsul-adi p {
+    text-align: center;
+    width: 250px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Marcellus, serif;
+    letter-spacing: 0.1em;
+    margin: 2px auto 7px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  
+  .card-slider-2 .price {
+    text-align: center;
+  }
+  .card-slider-2 .pricee span {
+    font-size: 16px;
+    color: #c0a483;
+    font-weight: 400;
+    font-family: Marcellus, serif;
+  }
+  .card-slider-2 .text-hot-all {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 10px auto;
+  }
+  .card-slider-2 .text-hot {
+    background-color: #c0a483;
+    width: 47px;
+    height: 24px;
+  }
+  .card-slider-2 .text-hot p {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    /* padding: 1px 7px; */
+    /* text-transform: capitalize; */
+    font-weight: 500;
+    font-family: Marcellus, serif;
+  }
+  .card-slider-2 .text-hot-2 {
+    background-color: #b12a2a;
+    width: 47px;
+    height: 24px;
+    color: #fff;
+    font-family: Marcellus, serif;    
+  }
+  .card-slider-2 .text-hot-2 p {
+    text-align: center;
+  }
+  
 /* 
 .balaca-sekil{
   position: relative;
@@ -205,13 +454,14 @@ body {
   padding: 15px;
   color: #000;
 } */
+/* 
 .wine-all {
   display: flex;
   justify-content: space-between;
   position: relative;
 }
 .wine-all img {
-  /* border: 2px solid #000; */
+  border: 2px solid #000;
   width: 90%;
   margin-left: 47px;
 }
@@ -225,11 +475,13 @@ body {
   font-family: "Marcellus", serif;
   font: weight 400px;
   color: #fff;
-}
+} */
+
 
 .balaca-sekil {
   position: relative;
   margin-top: 40px;
+  margin-left: 10px;
 }
 
 .balaca-sekil .text-button {
@@ -242,9 +494,16 @@ body {
   font-size: 20px;
   color: #fff;
 }
+.text-button-text span{
+  color: #af8b61;
+}
+.text-button-text{
+  width: 1000px;
+  font-size: 30px;
+}
 .balaca-sekil button {
   position: absolute;
-  left: 50%;
+  left: 40%;
   margin-top: 30px;
   padding: 10px;
   font-family: "Marcellus", serif;
@@ -262,7 +521,8 @@ body {
   margin-left: 15px;
 }
 #four-card {
-	 padding-top: 3rem;
+	 padding-top: 7rem;
+   padding-bottom: 7rem;
 }
  #four-card .container {
 	 background-color: #760b0d;
@@ -295,10 +555,10 @@ body {
    line-height: 26px;
 }
  #four-card .container .card .card-body p {
-	 margin-left: 1rem;
-	 color: #fff;
-}
- 
+  color: #fff;
+  margin-left: -21rem;
+  text-align: center;
+} 
 .grape {
   margin-top: 30px;
   position: relative;
@@ -924,7 +1184,7 @@ html {
 }
 .costomer p{
   font-family: Open Sans,sans-serif;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.75;
   color: #868686;
@@ -1032,7 +1292,7 @@ html {
   font-family: Marcellus,serif;
   letter-spacing: .1em;
   position: relative;
-  top: -84px;
+  top: -80px;
   right: -464px;
   cursor: pointer;
   font-size: 14px;
@@ -1364,7 +1624,7 @@ html {
  }
  .three-photo-I .photo1 p{
   font-family: Open Sans,sans-serif;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.75;
   color: #c0a483;
@@ -1451,15 +1711,15 @@ html {
   font-family: Open Sans,sans-serif;
   margin-top: 10px;
 }
-.stars{
+.starss{
     color: #6ab04c;
     display: inline-block;
     color: #ffc107;
     font-family: FontAwesome;
     font-size: 13px;
 }
-.stars h1{
-  font-family: Marcellus,serif;
+.starss h1{
+    font-family: Marcellus,serif;
     font-size: 24px;
     font-weight: 400;
     margin-top: 7px;
@@ -1479,7 +1739,7 @@ html {
 }
 .testimonial p{
   font-family: Open Sans,sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.75;
   color: #868686;
@@ -1790,6 +2050,7 @@ border-color: #c0a483;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+    margin-right: 35px;
     cursor: pointer;
     display: inline-block;
     vertical-align: top;
@@ -1809,6 +2070,9 @@ border-color: #c0a483;
 .info i{
   font-size: 15px;
   margin-left: 7px;
+}
+.info .info-adlari{
+  margin-bottom: 15px;
 }
 /* //////////////////
 Cart  stylling
@@ -1913,6 +2177,7 @@ Product section stylling
   padding: 0 3rem;
   max-width: 134rem;
   margin: auto;
+  background-color: #fff;
   display: grid;
   grid-template-columns: 0.8fr 1fr;
   gap: 10rem;
@@ -1934,13 +2199,15 @@ Product section stylling
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+
 }
 .img-btns img{
   border: 1px solid rgb(180, 180, 180);
   border-radius: none;
+
 }
-.img-btns img:hover{
-  border: 1px solid rgb(0, 0, 0);
+.img-btns :hover{
+  border: 1px solid #000;
 }
 
 
@@ -2007,6 +2274,7 @@ Product section stylling
     margin-bottom: 18px;
     font-size: 40px;
     font-weight: 400;
+    margin-left: -94px;
     line-height: 50px;
     color: #000;
     word-break: break-word;
@@ -2071,6 +2339,7 @@ Product section stylling
 }
 
 .price-box__old {
+  text-align: start;
       font-family: Open Sans,sans-serif;
     font-size: 15px;
     font-weight: 400;
