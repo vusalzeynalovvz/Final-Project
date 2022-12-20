@@ -100,13 +100,21 @@ body {
   position: relative;
 }
 .sifir {
-  border: 1px solid #c0a483;
-  border-radius: 50px;
+  right: -16px;
+  width: 18px;
   color: #fff;
-  top: 20px;
-  background-color: #c0a483;
+  top: -1px;
   position: absolute;
+  height: 18px;
+  line-height: 18px;
+  display: inline-block;
+  text-align: center;
+  background: #c0a483;
+  border-radius: 50%;
+  font-size: 16px;
 }
+
+
 
 .header-down-login {
   padding-right: 10px;
@@ -3105,13 +3113,72 @@ JavaScript Triggered Classes
 }
 
 
+
+
 @media only screen and (max-width: 576px) {
 
-  .header-up-line{
-    display: none;
-  }
-  .header-down-logo{
-    display: block;;
-  }
-  
+.slider-text-spr img{
+  width: 100%;
+}
+.box-all{
+display: block;
+    width: 50%;
+    margin: 0 auto;
+} 
+.box{
+  width: 100%;
+  margin: 0 auto;
+}
+.balaca-sekil img{
+  width: 100% !important;
+}
+.text-button-text p{
+  width: 102%;
+  font-size: 15px;
+}
+.text-button button{
+  position: absolute;
+  left: 44%;
+  font-size: 15px;
+  margin-top: 3px;
+  padding: 6px;
+  font-family: "Marcellus", serif;
+  border: 1px;
+  border-radius: 5px;
+  background-color: rgb(161, 38, 38);
+  color: #fff;
+}
+.grape img{
+  width: 100%;
+}
+.row{
+  width: 50%;
+  margin: 0 auto;
+}
+#four-card .container .card .card-body p{
+  width: 123%;
+}
+.grape .icon-text i{
+font-size: 20px;
+}
+.grape .icon-text p{
+  position: absolute;
+  font-size: 21px;
+  margin: 12px;
+  padding: 10px;
+  top: 27%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.grape .icon-text span {
+  position: absolute;
+  color: #fff;
+  font-family: Marcellus, serif;
+  font-size: 9px;
+  top: 60%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.5mm;
+} 
 }
