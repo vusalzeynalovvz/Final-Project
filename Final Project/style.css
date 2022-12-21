@@ -150,10 +150,11 @@ body {
   width: 490px;
 }
 .slider-text-spr .soz3 {
-  top: 70%;
+  top: 74%;
   padding: 0px 33px;
   color: #000;
 }
+
 .soz3 a {
   border: 2px SOLID #fff;
   font-size: 13px;
@@ -295,6 +296,7 @@ width: 490px;
   position: absolute;
   bottom: 5px;
   left: 150px;
+  font-size: 15px;
   transform: translate(-50%, -50%);
   border: 1px solid #fff;
   background-color: #fff;
@@ -485,6 +487,7 @@ width: 490px;
 .card-slider-2 .text-hot-2 {
   background-color: #b12a2a;
   width: 47px;
+  font-size: 13px;
   height: 24px;
   color: #fff;
   font-family: Marcellus, serif;
@@ -567,9 +570,10 @@ width: 490px;
   font-family: "Marcellus", serif;
   border: 1px;
   border-radius: 5px;
-  background-color: rgb(161, 38, 38);
+  background-color: #882424;
   color: #fff;
 }
+
 .balaca-sekil button:hover {
   background-color: #c0a483;
 }
@@ -616,6 +620,7 @@ width: 490px;
   color: #fff;
   margin-left: -21rem;
   text-align: center;
+  font-size: 15px;
 }
 .grape {
   margin-top: 30px;
@@ -626,7 +631,7 @@ width: 490px;
   position: absolute;
   font-size: 52px;
   top: 19%;
-  left: 48%;
+  left: 54%;
   transform: translate(-50%, -50%);
   color: #fff;
 }
@@ -636,7 +641,7 @@ width: 490px;
   margin: 12px;
   padding: 10px;
   top: 33%;
-  left: 46%;
+  left: 52%;
   transform: translate(-50%, -50%);
   color: #fff;
 }
@@ -646,10 +651,43 @@ width: 490px;
   font-family: Marcellus, serif;
   font-size: 16px;
   top: 48%;
-  left: 47%;
+  left: 53%;
   transform: translate(-50%, -50%);
   letter-spacing: 0.5mm;
 }
+.grape_email{
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  width: 35%;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom:2.5px solid #fff ;
+  font-size: 15px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Marcellus, serif;
+}
+
+.grape_submit{
+  position: absolute;
+  top: 55%;
+  left: 66%;
+  width: 10%;
+  font-size: 16px;
+  width: 4.5%;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  font-family: Marcellus, serif;
+  transition: 0s ;
+
+}
+.grape_submit:hover{
+  color: #c0a483;
+  border-bottom: 2px solid #c0a483;
+}
+
 
 /* .brand-all {
   width: 100%;
@@ -1992,6 +2030,9 @@ Overlay image modal
   border: none;
   padding: 15px;
 }
+.buy-now button:hover{
+  background-color:#997853 ;
+}
 .info span {
   font-family: Open Sans, sans-serif;
   font-size: 16px;
@@ -2244,6 +2285,26 @@ Product section stylling
   font-size: 1.8rem;
   color: var(--dark-grayish-blue);
   line-height: 1.5;
+}
+.adlari_qarisdirma p{
+  font-size: 28px;
+  color: #000;
+  padding-top: 40px;
+  /* padding-bottom: 48px; */
+  font-family: Marcellus,serif;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  /* text-decoration: underline; */
+}
+.adlari_qarisdirma hr{
+  color: inherit;
+  width: 100px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  border: 0;
+  border-top: 2px solid #c0a483;
+  opacity: 1;
 }
 
 .price-box {
@@ -3111,6 +3172,114 @@ JavaScript Triggered Classes
 .preload * {
   transition: none !important;
 }
+ul.tabs{
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+font-family: Marcellus,serif;
+margin-top: 20px;
+}
+ul.tabs li{
+	background: none;
+	color: rgb(191, 191, 191);
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.tab-content{
+	display: none;
+}
+#tabmenu_qarisdirma{
+  border-bottom: 1px solid rgb(191, 191, 191);
+  border-top: 1px solid rgb(191, 191, 191);
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.tab-content.current{
+	display: inherit;
+  text-align: left;
+  line-height: 2em;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #868686;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.tabs2 p{
+text-align:left;
+color: #c0a483;
+font-size: 25px;
+    font-family: Marcellus,serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.tabs2 span{
+  color: #000;
+}
+.tabs2 img{
+  border-radius: 50%;
+}
+.tabmenu_image-small{
+  display: flex;
+  margin-top: 20px;
+}
+.tabmenu_image-small h1{
+  margin-left: 10px;
+}
+.tabmenu_image_small_text h2{
+  color: #000;
+}
+.add-a-review{
+  align-items: center;
+}
+.add-a-review i{
+  font-size: 20px;
+}
+.add-a-review p{
+  text-align: left;
+  margin-top: 30px;
+  border: 1px solid #000;
+  width: 15%;
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  margin-bottom: 40px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid #000;
+  line-height: 52px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3145,7 +3314,7 @@ display: block;
   font-family: "Marcellus", serif;
   border: 1px;
   border-radius: 5px;
-  background-color: rgb(161, 38, 38);
+  background-color: ;
   color: #fff;
 }
 .grape img{
