@@ -1,10 +1,10 @@
 $(".slider").slick({
   dots: false,
-  infinite: true,
+  infinite: false,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   responsive: [
     {
@@ -32,11 +32,6 @@ $(".slider").slick({
     },
   ],
 });
-
-
-
-
-
 
 $(".slider3").slick({
   dots: false,
@@ -363,20 +358,14 @@ class PriceRange extends HTMLElement {
 
 customElements.define("price-range", PriceRange);
 
+$(document).ready(function () {
+  $("ul.tabs li").click(function () {
+    var tab_id = $(this).attr("data-tab");
 
+    $("ul.tabs li").removeClass("current");
+    $(".tab-content").removeClass("current");
 
-$(document).ready(function(){
-	
-	$('ul.tabs li').click(function(){
-		var tab_id = $(this).attr('data-tab');
-
-		$('ul.tabs li').removeClass('current');
-		$('.tab-content').removeClass('current');
-
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-	})
-
-})
-
-
+    $(this).addClass("current");
+    $("#" + tab_id).addClass("current");
+  });
+});
