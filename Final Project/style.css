@@ -6,8 +6,6 @@ body {
   max-width: 1300px;
 }
 
-
-
 .drop_down_menu_all{
   width:100%;
 }
@@ -22,12 +20,20 @@ body {
   padding-right: 18px;
   border-right: 1px solid #e2e2e2;
 }
+.slider_in_photo{
+  position: absolute;
+}
+
 .header-up-left-phone a {
   color: #000;
   margin-left: 5px;
 }
 .header-up-left-phone a:hover {
   color: #c0a483;
+}
+.slider_in_photo{
+  position: absolute;
+  top: 3%;
 }
 
 .header-up-left-mail {
@@ -831,8 +837,10 @@ footer#site-footer a.footer-button {
   border: 0.15rem solid #a8a8a8;
   border-radius: 1.38rem;
   padding: 0.5rem 1rem;
+  font-size: 17px;
   font-weight: bold;
   text-decoration: none;
+  margin-left: 9px;
   display: inline-block;
   color: #000;
 }
@@ -852,6 +860,7 @@ footer#site-footer .footer-columns {
 }
 .footer-columns ul li a {
   font-size: 14px;
+  font-family: Open Sans,sans-serif;
 }
 
 footer#site-footer .footer-columns-large {
@@ -860,23 +869,27 @@ footer#site-footer .footer-columns-large {
 }
 
 footer#site-footer .footer-columns h1 {
-  font-size: 15px;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: "Marcellus", Sans-serif;
+  font-size: 16px;
   color: #000;
-
-  font-weight: 800;
+  font-weight: 400;
 }
 
 footer#site-footer .footer-columns.footer-columns-large h1 {
-  font-size: 1.28rem;
   margin-top: 3rem;
   color: #000;
   margin-bottom: 1.32rem;
+  font-family: "Marcellus", Sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 footer#site-footer .footer-columns.footer-columns-large h1:first-child {
   margin-top: 0;
+
 }
 
 footer#site-footer ul.footer-column-menu {
@@ -899,7 +912,9 @@ footer#site-footer #footer-about address p img {
   margin-right: 1.68rem;
 }
 footer#site-footer #footer-about address p {
-  margin-top: 18px;
+  margin-top: 10px;
+  text-align: start;
+  font-size: 14px;
 }
 
 footer#site-footer #footer-about a.footer-button {
@@ -1634,7 +1649,8 @@ html {
   margin-top: 25px;
 }
 #new-letter {
-  background-color: #2a2b2d;
+  background-color: #c0a483;
+  margin-top: 30px;
 }
 
 .iconandtext-all .iconandtext i {
@@ -1668,6 +1684,7 @@ html {
   margin-top: 40px;
   padding: 30px;
   font-size: 15px;
+  border: 1px solid transparent;
 }
 .input-submit-all {
   display: flex;
@@ -1676,20 +1693,25 @@ html {
 }
 
 .input-submit-all .input-submit .btn {
-  background-color: #af8b61;
+  background-color: #000;
   height: 55px;
+  color: #fff;
   line-height: 55px;
   font-family: Marcellus, serif;
   letter-spacing: 0.1em;
   position: relative;
-  top: -84px;
-  right: -464px;
-  cursor: pointer;
+  top: -85px;
+  right: -488px;
+  cursor: pointer;  
   font-size: 14px;
   text-transform: uppercase;
   padding: 0 40px;
   overflow: visible;
   border-radius: 0px;
+}
+.input-submit-all .input-submit .btn:hover{
+  background-color:#af8b61;
+  color: #fff;
 }
 
 .shop-all img {
@@ -3076,7 +3098,7 @@ color: #86868686;
   background: transparent;
   font-weight: 400;
   font-size: 18px;
-  margin: 0 0 15px;
+  margin: 34px 0 15px;
   position: relative;
   line-height: 20px;
   text-transform: uppercase;
@@ -3102,7 +3124,7 @@ color: #86868686;
   background: transparent;
   font-weight: 400;
   font-size: 18px;
-  margin: 0 0 15px;
+  margin: 34px 0 15px;
   position: relative;
   line-height: 20px;
   text-transform: uppercase;
@@ -3138,12 +3160,14 @@ color: #86868686;
   font-weight: 400;
   font-size: 18px;
   position: relative;
+  margin: 34px 0 15px;
   border: 0;
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-family: Marcellus,serif;
 }
+
 .feature-text-all p i{
   color: red;
   font-size: 10px;
@@ -3396,6 +3420,9 @@ cursor: pointer;
 }
 .card_slider_icon_qarisdirma{
   position: absolute;
+}
+.yemeli_menu i{
+display: none;
 }
 .card_slider_icon_qarisdirma{
   opacity: 0;
@@ -3800,4 +3827,87 @@ font-size: 20px;
   transform: translate(-50%, -50%);
   letter-spacing: 0.5mm;
 } 
+.basket_and_sifir{
+display: none;
+}
+.header-down-login{
+  display: none;
+}
+
+.header-down-left {
+  max-width: 96% !important;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.header-up{
+  display: none;
+}
+.header-down-all{
+  margin-left: 0;
+  margin-right: 0;
+}
+.row{
+  width: 66%;
+  margin: 0 auto;
+}
+.yemeli_menu i{
+  display: block;
+  font-size: 25px;
+}
+.header-down-left {
+  margin-left: 50px;
+  width: 66%;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.slider .slider_text_spr_2 {
+  display: none;
+}
+.slider-text-spr img{
+  width: 300%;
+}
+.slider-text-spr p {
+  position: absolute;
+  color: red;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  font-family: "Marcellus", serif;
+  color: #fff;
+  width: 340px;
+}
+.slider-text-spr .soz2 {
+  top: 58%;
+  font-size: 13px;
+}
+.slider-text-spr .soz3 {
+  top: 66%;
+  padding: 0px 33px;
+  color: #000;
+}
+.grape .icon-text p {
+  position: absolute;
+  font-size: 21px;
+  margin: 12px;
+  padding: 10px;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.grape .icon-text span {
+  position: absolute;
+  color: #fff;
+  font-family: Marcellus, serif;
+  font-size: 9px;
+  top: 52%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.5mm;
+}
 }
