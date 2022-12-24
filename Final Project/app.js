@@ -33,6 +33,11 @@ $(".slider").slick({
   ],
 });
 
+
+
+
+
+
 $(".slider3").slick({
   dots: false,
   infinite: true,
@@ -75,6 +80,7 @@ $(".three-photo-I").slick({
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 2,
+  autoplay: true,
   arrows: false,
   responsive: [
     {
